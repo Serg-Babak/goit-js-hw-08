@@ -1,7 +1,11 @@
 // Add imports above this line
+// Описан в документации
+
 import SimpleLightbox from "simplelightbox";
-import SimpleLightbox from "simplelightbox/dist/simple-lightbox.esm";
-import { galleryItems } from './gallery-items';
+// Дополнительный импорт стилей
+import "simplelightbox/dist/simple-lightbox.min.css";
+
+import { galleryItems } from './gallery-items.js';
 // Change code below this line
 
 console.log(galleryItems);
